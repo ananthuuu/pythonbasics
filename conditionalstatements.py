@@ -16,18 +16,28 @@ i=0
 #     i=i+1
 
 
-
+counter=0
 
 for i in integers :
-    print(i)
-    
+    if(counter<4) :
         
          
+         print(i)
+         counter=counter+1
+         print(counter)
+         continue
+
+
+    elif(counter>4) :
+         break
+         
+
         
          
     
     
-    
+
+
 
 
          
